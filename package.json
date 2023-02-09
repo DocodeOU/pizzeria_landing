@@ -15,21 +15,22 @@
     },
     "dependencies": {
         "@bazzite/nuxt-optimized-images": "0.4.0",
-        "@nuxtjs/pwa": "3.3.5",
-        "@nuxtjs/sitemap": "2.4.0",
-        "imagemin-mozjpeg": "10.0.0",
-        "imagemin-pngquant": "9.0.2",
-        "imagemin-svgo": "10.0.1",
-        "nuxt": "3.2.0",
+        "@nuxtjs/pwa": "3.0.0-beta.20",
+        "@nuxtjs/sitemap": "2.2.1",
+        "imagemin-mozjpeg": "8.0.0",
+        "imagemin-pngquant": "8.0.0",
+        "imagemin-svgo": "7.1.0",
+        "nuxt": "2.15.2",
         "spectre.css": "0.5.9",
         "vue-scrollto": "2.20.0",
         "vue-svgicon": "3.3.0"
     },
     "devDependencies": {
+        "prettier": "2.0.5",
+        "pug": "2.0.4",
+        "pug-plain-loader": "1.0.0",
+        "sass-loader": "8.0.2",
         "sass": "1.58.0",
-        "prettier": "2.8.4",
-        "pug": "3.0.2",
-        "pug-plain-loader": "1.1.0",
-        "sass-loader": "13.2.0"
+        "webpack": "^4.46.0"
     }
 }
