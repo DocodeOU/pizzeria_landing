@@ -1,0 +1,47 @@
+$unpo: 20px
+
+nav
+    z-index: 5
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: center
+    padding-top: $unpo * 4
+
+    img
+        height: 80px
+        width: auto
+        margin: $unpo $unpo / 2 $unpo $unpo / 2
+
+        @media screen and (max-width: 600px)
+            margin: 0
+            padding: $unpo $unpo * 2
+            height: auto
+            width: 100%
+
+.container
+    padding: 0 10% $unpo 10%
+    @media screen and (max-width: 600px)
+        padding: $unpo * 2 $unpo
+
+.card
+    margin: 12px 4px
+
+.foto-galleria
+    position: relative
+    img
+        max-width: 98%
+        display: block
+        margin: 3px auto
+video
+    width: 98%
+    display: block
+    margin: 3px auto
+
+.titolo
+    padding: $unpo * 4
+    color: #EF5350
+    margin-bottom: 0
+    font-size: 40px
+    font-weight: 800
+    text-align: center

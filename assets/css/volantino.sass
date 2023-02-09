@@ -1,0 +1,21 @@
+@import variables
+
+body
+    background: transparentize($secondary-color, .9)
+
+.pulsante-scarica-volantino
+    position: fixed
+    bottom: 14px
+    right: 14px
+    background: $primary-color
+    color: white
+    font-size: 18px
+    font-weight: 200
+    height: auto
+    border-radius: 20px
+    padding: 12px 20px
+
+    &:hover, &:active, &:focus
+        background: darken($primary-color, 10)
+        color: white
+        text-decoration: none

@@ -1,0 +1,61 @@
+@import variables
+@import ../../node_modules/spectre.css/src/spectre
+@import ../../node_modules/spectre.css/src/spectre-icons
+@import include-media
+@import volantino
+@import team
+@import header
+@import hero
+@import lista-azioni
+@import footer
+@import fonts
+
+body
+    background-color: white
+    border: 0
+    margin: 0
+    padding: 0
+    font-weight: 400
+    font-family: 'Circular', helvetica, sans-serif
+
+b
+    font-weight: 900
+
+.titolo
+    color: $third-color
+    font-weight: 900
+    padding: 60px 30px
+    text-align: center
+
+
+.buoni-pasto
+    width: 100%
+    padding: 80px 40px 40px
+    margin-top: 10px
+    color: $black
+    font-weight: 600
+    text-align: center
+    font-size: 30px
+
+
+.sezione
+    display: flex
+    align-items: center
+    justify-content: center
+
+    #map
+        height: 400px
+        width: 100%
+        @media screen and (min-width: 600px)
+            box-shadow: 0 12px 30px 0 transparentize($black, .35)
+
+    #container-immagine-impasto-integrale
+        @media screen and (min-width: 600px)
+            border-radius: 4px
+            box-shadow: 0 12px 30px 0 transparentize($black, .35)
+
+
+    .testo
+        padding: 60px
+        color: $black
+
