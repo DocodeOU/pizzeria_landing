@@ -7,7 +7,7 @@
                 | Subito.. a casa tua. Pizze d'asporto leggere da digerire, pizze integrali, e farinate di ceci consegnate a casa
                 | calde in un batter d'occhio!
             .container-hero-actions
-                a.action-online-order(href='https://wbpp.it/so/?900') Ordina online
+                a(href='https://wbpp.it/so/?900') Ordina online
                 a(href='tel:0532756053') 0532 756053
     a.down-arrow.hide-sm(v-scroll-to="'#titolo-scoprici'")
         i.icon.icon-2x.icon-downward
