@@ -8,7 +8,6 @@
                 | calde in un batter d'occhio!
             .container-hero-actions
                 a.action-online-order(href='https://wbpp.it/so/?900') Ordina online
-                a(href='tel:3441617042') 344 1617042
                 a(href='tel:0532756053') 0532 756053
     a.down-arrow.hide-sm(v-scroll-to="'#titolo-scoprici'")
         i.icon.icon-2x.icon-downward
