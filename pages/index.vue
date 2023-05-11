@@ -85,7 +85,7 @@ export default {
              })
 
          setTimeout(async () => {
-            await injectScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyC_AHzjTlck1jRdMwIBDA43WXgbBnhSvis')
+            await injectScript('https://maps.googleapis.com/maps/api/js?key=AIzaSyC8E-lngnAUZuNIljFST8kJwVpPuZxnfKA')
 
             const pizzeria = {lat: 44.8378946, lng: 11.6606791}
             const map = new google.maps.Map(document.getElementById('map'), {
