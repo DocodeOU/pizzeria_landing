@@ -54,7 +54,6 @@
         .column.col-9.columns.col-gapless
             .col-4.col-sm-12
                 .footer__title Contatti
-                a.footer__text(href='tel:3441617042') 344 1617042
                 a.footer__text(href='tel:0532756053') 0532 756053
                 .footer__text P. IVA 01708770381
             .col-8.col-sm-12
